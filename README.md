@@ -1,6 +1,6 @@
 # BÀI THỰC HÀNH 03 – KIỂM THỬ HỘP ĐEN (Black-box Testing)
 
-> **Môn:** Kiểm Thử Phần Mềm  
+> **Môn:** Đánh giá và kiểm định chất lượng phần mềm 
 > **Phương pháp:** Kiểm thử hộp đen – Phân lớp tương đương + Phân tích giá trị biên  
 > **Công cụ:** Java (OpenJDK 21), VSCode
 
@@ -10,11 +10,10 @@
 
 ```
 BlackBoxTesting/
-├── README.md                       ← File này (hướng dẫn đọc bài tập)
-├── docs/
-│   ├── DanhSachTestCase.docx       ← Danh sách toàn bộ test case
-│   ├── KetQuaKiemThu.docx          ← Kết quả chạy kiểm thử (Pass/Fail)
-│   └── MoTaKiemThuHopDen.docx      ← Mô tả cách áp dụng kiểm thử hộp đen
+├── README.md                       ← File hướng dẫn đọc bài tập
+├── DanhSachTestCase.docx       ← Danh sách toàn bộ test case
+├── KetQuaKiemThu.docx          ← Kết quả chạy kiểm thử (Pass/Fail)
+└── MoTaKiemThuHopDen.docx      ← Mô tả cách áp dụng kiểm thử hộp đen
 └── src/
     ├── Bai1_ChuViHinhChuNhat.java
     ├── Bai2_DienTichHinhChuNhat.java
@@ -71,15 +70,6 @@ javac Bai5_SoNguyenTo.java && java Bai5_SoNguyenTo
 javac Bai6_TongXenKe.java && java Bai6_TongXenKe
 javac Bai7_UCLN.java && java Bai7_UCLN
 javac Bai8_TongGiaiThua.java && java Bai8_TongGiaiThua
-```
-
-### Chạy tất cả (macOS/Linux)
-```bash
-cd src
-for f in Bai*.java; do
-  javac "$f" && java "${f%.java}"
-  echo "---"
-done
 ```
 
 ---
