@@ -1,4 +1,4 @@
-# BÀI THỰC HÀNH 03 – KIỂM THỬ HỘP ĐEN (Black-box Testing)
+# BÀI THỰC HÀNH – KIỂM THỬ HỘP ĐEN / HỘP TRẮNG (Black-box Testing)
 
 > **Môn:** Đánh giá và kiểm định chất lượng phần mềm 
 > **Phương pháp:** Kiểm thử hộp đen – Phân lớp tương đương + Phân tích giá trị biên 
