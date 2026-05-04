@@ -1,7 +1,8 @@
 # BÀI THỰC HÀNH 03 – KIỂM THỬ HỘP ĐEN (Black-box Testing)
 
 > **Môn:** Đánh giá và kiểm định chất lượng phần mềm 
-> **Phương pháp:** Kiểm thử hộp đen – Phân lớp tương đương + Phân tích giá trị biên  
+> **Phương pháp:** Kiểm thử hộp đen – Phân lớp tương đương + Phân tích giá trị biên 
+>                  Kiểm thử hộp trắng (White-box Testing)   
 > **Công cụ:** Java (OpenJDK 21), VSCode
 
 ---
@@ -14,6 +15,7 @@ BlackBoxTesting/
 ├── DanhSachTestCase.docx       ← Danh sách toàn bộ test case
 ├── KetQuaKiemThu.docx          ← Kết quả chạy kiểm thử (Pass/Fail)
 └── MoTaKiemThuHopDen.docx      ← Mô tả cách áp dụng kiểm thử hộp đen
+└── MoTaKiemThuHopTrang.docx      ← Mô tả cách áp dụng kiểm thử hộp trắng
 └── src/
     ├── Bai1_ChuViHinhChuNhat.java
     ├── Bai2_DienTichHinhChuNhat.java
@@ -30,7 +32,7 @@ BlackBoxTesting/
 ## Hướng dẫn đọc bài tập
 
 ### Bước 1 – Đọc mô tả kiểm thử
-Mở file `docs/MoTaKiemThuHopDen.docx` để hiểu cách áp dụng 3 kỹ thuật kiểm thử hộp đen cho từng bài:
+Mở file `docs/MoTaKiemThuHopDen.docx` để hiểu cách áp dụng 3 kỹ thuật kiểm thử hộp đen, hộp trắng cho từng bài:
 - **Phân lớp tương đương** – chia miền đầu vào thành các nhóm xử lý giống nhau
 - **Phân tích giá trị biên** – kiểm tra tại các điểm ranh giới
 - **Dữ liệu không hợp lệ** – kiểm tra khi chương trình nhận đầu vào sai
